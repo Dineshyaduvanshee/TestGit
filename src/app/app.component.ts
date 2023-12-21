@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TestGit';
+  constructor(){
+    console.log("This constructor call from app.component");
+    
+  }
+  // @HostListener('click',['$event'])
+  // show(){
+  //   alert("Hello");
+  // }
+  // display(){
+  //   alert('Hi');
+  // }
+  
+  
 }

@@ -5,6 +5,13 @@ h1{
 }
 p{
     background: cyan;
+    text-align: center; 
+}
+h3{
+    background-color: blueviolet;
+    text-shadow: 0cap;
     text-align: center;
-    
+}
+input{
+    border: 0cap;
 }
