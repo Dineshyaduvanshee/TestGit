@@ -19,6 +19,7 @@ export class AdminComponent {
       name: ['', Validators.required],
       email: ['', Validators.required],
       password: ['', Validators.required]
+      
     });
   }
 
